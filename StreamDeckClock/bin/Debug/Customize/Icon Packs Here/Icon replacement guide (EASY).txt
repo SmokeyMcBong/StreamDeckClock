@@ -1,0 +1,11 @@
+** Using my bundled icon packs... **
+1. Choose which icon pack you want to use,
+2. Select and copy all the icons in the chosen icon pack folder,
+3. Paste and replace the icons into the 'clock_icons' folder
+4. Done
+
+
+** Making/Using your own icons... **
+1. Make sure all icons are 72x72px 32bit rgb
+2. 72 Icons in total
+3. Place the icons into the 'clock_icons' folder
