@@ -11,7 +11,7 @@ Simple C# app to display a Real-Time Clock on the 'Elgato Stream Deck'
 
   
   
-  
+
 - Automatically gets current time every second
 - Close's the background console app when any button is pressed on the Stream Deck
 - Easy to modify clock location
