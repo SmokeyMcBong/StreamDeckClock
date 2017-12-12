@@ -12,6 +12,8 @@ Simple C# app to display a Real-Time Clock on the 'Elgato Stream Deck'
 - Close's the background console app when any button is pressed on the Stream Deck
 - Easy to modify clock location
 - All clock icons can be replaced/modified (make sure to keep the same folder location)
+- Icon Pack Support
+- Scratched Blue Icon Pack
 - Runs in background
 - Lightweight
 
