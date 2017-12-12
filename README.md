@@ -5,7 +5,7 @@ Simple C# app to display a Real-Time Clock on the 'Elgato Stream Deck'
 ** This project uses the brilliant 'StreamDeckSharp .NET interface' ( https://github.com/OpenStreamDeck/StreamDeckSharp )
 
 
-![](https://i.imgur.com/Jkvmgfk.jpg)
+ ![](https://i.imgur.com/Jkvmgfk.jpg)
 
 
 - Automatically gets current time every second
