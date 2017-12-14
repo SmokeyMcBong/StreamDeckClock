@@ -1,10 +1,9 @@
-# ![alt text][logo] StreamDeckClock
-
-[logo]: https://i.imgur.com/qxkqcnC.png "StreamDeckClock"
+#  ![alt text](https://i.imgur.com/qxkqcnC.png "treamDeckClock") StreamDeckClock
 ---  
-
 ##### A Simple C# app to display a Real-Time Clock on the Elgato 'Stream Deck' Device
-#
+  
+  
+
 #
 This project uses the 'StreamDeckSharp .NET interface'
 ( https://github.com/OpenStreamDeck/StreamDeckSharp )  
