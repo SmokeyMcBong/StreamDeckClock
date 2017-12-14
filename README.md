@@ -26,13 +26,11 @@ This project uses the 'StreamDeckSharp .NET interface'
 - Lightweight
 #
 ###### [ NuGet Dependencies... ] 
-+ Microsoft.Web.Xdt.2.1.1 / NuGet.Core.2.14.0  / streamdecksharp.0.1.1
-#
-#
++ Microsoft.Web.Xdt.2.1.1 / NuGet.Core.2.14.0  / streamdecksharp.0.1.1  
+
 ---
  
 ###### This project is not related to *Elgato Systems GmbH* in any way
-#
 
 ---
  
