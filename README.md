@@ -1,6 +1,6 @@
 #  ![alt text](https://i.imgur.com/qxkqcnC.png "treamDeckClock") StreamDeckClock
   
-##### A Simple C# app to display a Real-Time Clock on the Elgato 'Stream Deck' Device
+##### A Simple C# app to display a Real-Time Clock on the [Elgato Stream Deck](https://www.elgato.com/en/gaming/stream-deck) Device
 ---
   
 
