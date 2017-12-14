@@ -30,21 +30,24 @@ namespace StreamDeckClock
                 //Set loop
                 while (true)
                 {
-                    //Get current time - Hour
-                    string clock_hours = DateTime.Now.ToString("hh:mm:ss tt");
+                    //Get the current time
+                    string time_output = DateTime.Now.ToString("hh:mm:ss tt");
+
+                    //Use time_output to get result - Hours 
+                    string clock_hours = time_output;
                     StringBuilder sb_clock_hours = new StringBuilder(clock_hours);
                     sb_clock_hours.Remove(2, 9);
                     clock_hours = sb_clock_hours.ToString();
 
-                    //Get current time - Minutes
-                    string clock_minutes = DateTime.Now.ToString("hh:mm:ss tt");
+                    //Use time_output to get result - Minutes
+                    string clock_minutes = time_output;
                     StringBuilder sb_clock_minutes = new StringBuilder(clock_minutes);
                     sb_clock_minutes.Remove(0, 3);
                     sb_clock_minutes.Remove(2, 6);
                     clock_minutes = sb_clock_minutes.ToString();
 
-                    //Get current time - Am/Pm
-                    string clock_ampm = DateTime.Now.ToString("hh:mm:ss tt");
+                    ///Use time_output to get result - Am/Pm
+                    string clock_ampm = time_output;
                     StringBuilder sb_clock_ampm = new StringBuilder(clock_ampm);
                     sb_clock_ampm.Remove(0, 9);
                     clock_ampm = sb_clock_ampm.ToString();
