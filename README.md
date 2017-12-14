@@ -6,7 +6,7 @@
 
 #
 
-This project uses the 'StreamDeckSharp .NET interface'  
+This project uses the *StreamDeckSharp* .NET interface  
 ( https://github.com/OpenStreamDeck/StreamDeckSharp )  
 
 ---
@@ -16,14 +16,15 @@ This project uses the 'StreamDeckSharp .NET interface'
 ---
 
 ##### StreamDeckClock
+- Runs as non-visible console application in the background
 - Automatically gets current time every second
-- Close's the background console app when any button is pressed on the Stream Deck
+- Closes itself when any button is pressed on the Stream Deck
 - Easy to modify clock location
-- All clock icons can be replaced/modified (make sure to keep the same folder location)
-- Icon Pack Support
-- Scratched Blue Icon Pack
-- Runs in background
-- Lightweight
+- Icon Pack Support - All clock icons can be replaced/modified
+ -- (refer to 'Icon replacement guide (EASY).txt',  found in the 'Customize' folder)
+- Black/White Icon Pack Included
+- Scratched Blue Icon Pack Included
+- Lightweight code
 #
 ###### [ NuGet Dependencies... ] 
 + Microsoft.Web.Xdt.2.1.1 / NuGet.Core.2.14.0  / streamdecksharp.0.1.1  
