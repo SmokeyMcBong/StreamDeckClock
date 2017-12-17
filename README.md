@@ -6,8 +6,8 @@
 
 #
 
-This project uses the *StreamDeckSharp* .NET interface  
-( https://github.com/OpenStreamDeck/StreamDeckSharp )  
+This project uses
+* StreamDeckSharp .NET interface (https://github.com/OpenStreamDeck/StreamDeckSharp)  
 
 ---
 
