@@ -30,14 +30,11 @@ namespace StreamDeckClock
                 //Set loop
                 while (true)
                 {
-                    //Get the current time
+                    //Get the current time (hours, minutes and am/pm)
                     string time_output_hours = DateTime.Now.ToString("hh");
-                    //string clock_hours = time_output_hours;
                     string time_output_minutes = DateTime.Now.ToString("mm");
-                    //string clock_minutes = time_output_minutes;
                     string time_output_ampm = DateTime.Now.ToString("tt");
-                    //string clock_ampm = time_output_ampm;
-
+                    
                     //Check if hours string is not empty
                     if (!string.IsNullOrEmpty(time_output_hours))
                     {
