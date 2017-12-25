@@ -31,52 +31,38 @@ namespace StreamDeckClock
                 while (true)
                 {
                     //Get the current time
-                    string time_output = DateTime.Now.ToString("hh:mm:ss tt");
-
-                    //Use time_output to get result - Hours 
-                    string clock_hours = time_output;
-                    StringBuilder sb_clock_hours = new StringBuilder(clock_hours);
-                    sb_clock_hours.Remove(2, 9);
-                    clock_hours = sb_clock_hours.ToString();
-
-                    //Use time_output to get result - Minutes
-                    string clock_minutes = time_output;
-                    StringBuilder sb_clock_minutes = new StringBuilder(clock_minutes);
-                    sb_clock_minutes.Remove(0, 3);
-                    sb_clock_minutes.Remove(2, 6);
-                    clock_minutes = sb_clock_minutes.ToString();
-
-                    ///Use time_output to get result - Am/Pm
-                    string clock_ampm = time_output;
-                    StringBuilder sb_clock_ampm = new StringBuilder(clock_ampm);
-                    sb_clock_ampm.Remove(0, 9);
-                    clock_ampm = sb_clock_ampm.ToString();
+                    string time_output_hours = DateTime.Now.ToString("hh");
+                    //string clock_hours = time_output_hours;
+                    string time_output_minutes = DateTime.Now.ToString("mm");
+                    //string clock_minutes = time_output_minutes;
+                    string time_output_ampm = DateTime.Now.ToString("tt");
+                    //string clock_ampm = time_output_ampm;
 
                     //Check if hours string is not empty
-                    if (!string.IsNullOrEmpty(clock_hours))
+                    if (!string.IsNullOrEmpty(time_output_hours))
                     {
                         //check if hours start with "0"
-                        if (clock_hours.StartsWith("0"))
+                        if (time_output_hours.StartsWith("0"))
                         {
                             //remove starting "0" from string
-                            clock_hours = clock_hours.Remove(0, 1);
+                            time_output_hours = time_output_hours.Remove(0, 1);
                         }
                         //send results to Set_Time to deal with
-                        Set_Time(clock_hours, key_location_hours);
+                        Set_Time(time_output_hours, key_location_hours);
                     }
 
                     //Check if minutes string is not empty
-                    if (!string.IsNullOrEmpty(clock_minutes))
+                    if (!string.IsNullOrEmpty(time_output_minutes))
                     {
                         //send results to Set_Time to deal with
-                        Set_Time(clock_minutes, key_location_minutes);
+                        Set_Time(time_output_minutes, key_location_minutes);
                     }
 
                     //Check if am/pm string is not empty
-                    if (!string.IsNullOrEmpty(clock_ampm))
+                    if (!string.IsNullOrEmpty(time_output_ampm))
                     {
                         //send results to Set_Time to deal with
-                        Set_Time(clock_ampm, key_location_ampm);
+                        Set_Time(time_output_ampm, key_location_ampm);
                     }
 
                     //Wait 1 second before restarting loop
